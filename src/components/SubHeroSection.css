@@ -1,0 +1,94 @@
+.subhero-container {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.fa-star{
+  color: rgba(245, 188, 0, 0.849);
+}
+
+img{
+  border-radius: 5px;
+  width: 270px;
+  height: 200px;
+  margin-top: 60px;
+}
+
+.info-class{
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.info-class > h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.info-class > h2{
+  font-size: 20px;
+}
+
+.label-class{
+  display: flex;
+}
+
+.logo{
+  width: 200px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.learn-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  height: 20vh;
+  background-color: rgba(255, 255, 255, 0.493);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.learn-box > span {
+  border: 1px solid black;
+  width: 80px;
+}
+
+.info-class > p {
+  font-size: 20px;
+  margin-top: 10px;
+  width: 600px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+  .subhero-container > h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subhero-container > h1 {
+    font-size: 15px;
+  }
+
+  .subhero-container > p {
+    font-size: 15px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

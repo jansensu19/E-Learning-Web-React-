@@ -1,0 +1,205 @@
+.description-container {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    object-fit: contain;
+  }
+
+  .nav-tab{
+      width: 100%;
+      height: 10vh;
+      padding-top: 30px;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+  }
+
+  .description-tab{
+    line-height: 1.5;
+    display: flex;
+    margin-left: 30vh;
+    height: 20vh;
+  }
+
+  .description-tab > li {
+      display: block;
+      cursor: pointer;
+      margin-left: 50px;
+      list-style-type: none;
+  }
+
+  .active {
+      border-bottom: 1px solid black;
+  }
+
+  .description-tab > li > a {
+    text-decoration-line: none;
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+.description-info{
+    display: flex;
+    width: 60%;
+    margin-left: 30vh;
+    line-height: 1.5;
+    height: 40vh;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.desc-list > h2{
+    padding-bottom: 2vh;
+}
+
+.desc-list > ul > li > p {
+    font-weight: lighter;
+}
+
+.desc-list > ul {
+    padding-top: 2vh;
+    padding-left: 5vh;
+    padding-bottom: 2vh;
+}
+
+.specs-description-info{
+    width: 100%;
+    padding-left: 5vh;
+}
+
+.specs-description-info > h4{
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+
+.specs-description-info > h5{
+    padding-bottom: 1vh;
+    padding-left: 1vh;
+}
+
+.fas{
+    padding-right: 1vh;
+}
+
+.specs-description-info > p{
+    font-size: 14px;
+    padding-bottom: 2vh;
+    padding-left: 3vh;
+}
+
+.specs-description-info > span{
+    font-size: 14px;
+    padding-bottom: 2vh;
+    padding-left: 3vh;
+}
+
+.equip-info{
+    color: rgb(95, 148, 194);
+}
+
+.sub-border-description-info{
+    width: 40%;
+    padding: 4vh;
+    line-height: 1.5;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2vh;
+    margin-left: 35vh;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.sub-border-description-info > h3 {
+    padding-bottom: 2vh;
+}
+
+.subdescription-info{
+    width: 40%;
+    line-height: 1.5;
+    height: 25vh;
+    margin-left: 30vh;
+    padding: 2vh;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.subdescription-info > ul {
+    padding-top: 2vh;
+    padding-left: 5vh;
+    padding-bottom: 2vh;
+}
+
+.popup-info{
+    position: absolute;
+    width: -100vw;
+    height: 25vw;
+    display: flex;
+    margin-left: 9vw;
+}
+
+.popup-close{
+    margin-left: 73vh;
+    margin-top: 1vh;
+}
+
+.popup-bg{
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.popup-title-info{
+    padding: 2vh;
+}
+
+.popup-title-info > h1{
+    text-align: left;
+    margin-bottom: 2vh;
+}
+
+.popup-title-info > h4{
+    text-align: left;
+}
+
+.popup-specs-info{
+    display: flex;
+}
+
+.popup-specs-info > span{
+    font-weight: bold;
+    margin-left: 2vh;
+}
+
+.popup-specs-info > p{
+    padding-top: 0.7vh;
+    padding-left: 2vh;
+    padding-bottom: 3vh;
+}
+
+.longer-info{
+    width: 15vw;
+    margin-left: 24.5vh;
+    padding-left: 20vh;
+}
+
+.longer-info-2{
+    width: 20vw;
+    margin-left: 14.4vh;
+    padding-left: 14.5vh;
+}
+
+.popup-tools-info{
+    width: 20vw;
+    padding-left: 2vh;
+    padding-bottom: 2vh;
+    line-height: 1.6;
+}
+
+.tools-info > span{
+    line-height: 1.5;
+    padding-right: 23vh;
+}
+
+.far{
+    padding-right: 5px;
+}
+
+
+ 

@@ -1,0 +1,52 @@
+.button-popup{
+  border: none;
+  background-color: #fff;
+  color: rgb(58, 145, 221);
+  border-bottom: 1px solid rgb(58, 145, 221);
+}
+
+.button-popup:hover{
+  color: rgb(4, 96, 177);
+  border-bottom: 1px solid rgb(4, 96, 177);
+}
+
+.modal {
+    backdrop-filter: blur(10px);
+    width: 39vw;
+    height: 26vw;
+    display: flex;
+    padding: 10vw;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal > .header {
+
+    font-size: 18px;
+    text-align: center;
+  }
+  .modal > .content {
+
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
