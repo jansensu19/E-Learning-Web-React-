@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Products from './components/pages/Products';
+import Subscription from './components/pages/Subscription';
 import SignUp from './components/pages/SignUp';
 import LearningPath from './components/pages/LearningPath';
 import WebDeveloper from './components/pages/WebDeveloper';
@@ -17,7 +17,7 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/learningpath' element={<LearningPath/>} />
           <Route path='/webdeveloper' element={<WebDeveloper/>} />
-          <Route path='/products' element={<Products/>} />
+          <Route path='/subscription' element={<Subscription/>} />
           <Route path='/sign-up' element={<SignUp/>} />
         </Routes>
       </Router>
