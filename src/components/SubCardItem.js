@@ -6,17 +6,11 @@ function SubCardItem(props) {
     <>
       <li className='cards__item'>
         <Link className='cards__item__link' to={props.path}>
-          <figure className='cards__item__pic-wrap' data-category={props.label}>
-            <img
-              className='cards__item__img'
-              alt='Technology Image'
-              src={props.src}
-            />
-          </figure>
           <div className='cards__item__info'>
-            <h5 className='cards__item__text'>{props.title}</h5>
-            <p>{props.text}</p>
-            <button>Pilih paket</button>
+            <h5 className='cards__item__title'>{props.title}</h5>
+            <p className='cards__item__discount'>{props.discount}</p>
+            <p className='cards__item__subtext'>{props.text}</p>
+            <button className='cards__item__button'>Subscribe</button>
           </div>
         </Link>
       </li>

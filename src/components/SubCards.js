@@ -3,49 +3,35 @@ import SubCardItem from './SubCardItem';
 import "./SubCards.css"
 
 function SubCards() {
-        return (
-            <div className='cards'>
-      <h1>Check out these EPIC Digital Learning Experience!</h1>
+  return (
+    <div className='cards'>
+      <h1>Subscription Fees & Benefits</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <SubCardItem
-              src='images/webdeveloper.jpg'
-              text='Explore and Build your web in the world of Web Design and Development'
-              label='Web Developer'
+              title='1 Month Subscription (30 Days)'
+              text='Rp 1,500,000'
               path='/webdeveloper'
             />
             <SubCardItem
-              src='images/softwaredeveloper.jpg'
-              text='Learn and Build you own software to the next level'
-              label='Software Developer'
-              path='/services'
-            />
-            <SubCardItem
-              src='images/mobiledeveloper.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Mobile Developer'
+              title='3 Month Subscription (90 Days)'
+              text='Rp 4,500,000'
               path='/services'
             />
           </ul>
 
           <ul className='cards__items'>
-            <SubCardItem
-              src='images/fullstackweb.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Full Stack Web Developer'
+          <SubCardItem
+              title='6 Month Subscription (180 Days)'
+              discount='Rp 9,000,000'
+              text='Rp 8,100,000'
               path='/services'
             />
             <SubCardItem
-              src='images/androiddeveloper.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Android Developer'
-              path='/sign-up'
-            />
-            <SubCardItem
-              src='images/iosdeveloper.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='IOS Developer'
+              title='1 Year Subscription (365 Days)'
+              discount='Rp 18,000,000'
+              text='Rp 12,600,000'
               path='/sign-up'
             />
           </ul>
