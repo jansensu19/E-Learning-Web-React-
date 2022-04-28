@@ -1,10 +1,12 @@
 .benefit {
     padding: 4rem;
-    background: #fff;
+    background: rgba(220, 220, 220, 0.24);
   }
   
   .benefit__container {
+    background-color: #fff;
     border: 1px solid black;
+    border-radius: 10px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -23,7 +25,6 @@
   }
   
   .benefit__item {
-      
     display: flex;
     flex: 1;
     margin: 0 1rem;
@@ -47,6 +48,44 @@
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 10px;
+  }
+
+  .trial{
+    padding: 20px 30px 30px;
+  }
+
+  .trial__text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 0.5vw;
+  }
+
+  .trial__button{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .try__button{
+    font-size: 16px;
+    font-weight: 700;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  .try__button:hover{
+    background-color: beige;
+  }
+
+  .trial__link{
+    cursor: pointer;
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
   }
   
   @media screen and (max-width: 820px) {

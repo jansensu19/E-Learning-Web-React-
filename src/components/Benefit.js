@@ -23,7 +23,7 @@ function Benefit() {
                         <li className='benefit__item'>
                             <div className='benefit__item__info'>
                                 <h5 className='item__title'><i class="far fa-comments"></i>Discussion Forum</h5>
-                                <p className='item__subtext'>Discuss study material with other students.</p>
+                                <p className='item__subtext'>Discuss study materials with others students.</p>
                             </div>
                             <div className='benefit__item__info'>
                                 <h5 className='item__title'><i class="far fa-file-code"></i>Code Review</h5>
@@ -36,7 +36,7 @@ function Benefit() {
                         <li className='benefit__item'>
                             <div className='benefit__item__info'>
                                 <h5 className='item__title'><i class="far fa-code"></i>Interactive Code</h5>
-                                <p className='item__subtext'>Write and run your practice code directly on the module.</p>
+                                <p className='item__subtext'>Write and run your practice code directly on the module materials.</p>
                             </div>
                             <div className='benefit__item__info'>
                                 <h5 className='item__title'><i class="far fa-file-certificate"></i>Certificate</h5>
@@ -53,15 +53,17 @@ function Benefit() {
                             </div>
                             <div className='benefit__item__info'>
                                 <h5 className='item__title'><i class="far fa-file-certificate"></i>Renew Certificate</h5>
-                                <p className='item__subtext'>Renew your expired certificate.</p>
+                                <p className='item__subtext'>Renew your expired certificate with new certificate fast, simple and easier to get certificate.</p>
                             </div>
                         </li>
                     </ul>
 
                     <div className="trial">
-                    <h4>Still not sure to subscribe? Please try free for 15 days and access all classes at Dicoding Academy.</h4>
-                    <button>Try Now</button>
-                    <a href="/">Benefit Trial</a>
+                        <h4 className='trial__text'>Still not sure to subscribe? Please try free for 15 days and access all classes at Dicoding Academy.</h4>
+                    <div className="trial__button">
+                        <button className='try__button'>Try Now</button>
+                        <a href="/" className='trial__link'>Benefit Trial</a>
+                    </div>
                     </div>
                 </div>
             </div>
