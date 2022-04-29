@@ -15,7 +15,7 @@ function SubHeroSection() {
         <h2><i class="far fa-clock"></i> 55 Hours Learn</h2>
       </div>
       <p>Learn the basic components of HTML, CSS, and JavaScript which are the main foundation for becoming a web developer.</p>
-      <img className='logo' src="images/microsoft.png" />
+      <img className='logo' src="images/logo/microsoft.png" />
       </div>
       <div className="learn-box">
       <Button

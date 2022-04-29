@@ -4,7 +4,7 @@ import "./SubCards.css"
 
 function SubCards() {
   return (
-    <div className='cards'>
+    <div className='card'>
       <h1>Subscription Fees & Benefits</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
