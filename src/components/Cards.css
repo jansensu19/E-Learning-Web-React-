@@ -106,6 +106,12 @@ h1 {
   line-height: 24px;
 }
 
+.cards__item__sub{
+  color: #252e489c;
+  font-size: 14px;
+  line-height: 24px;
+}
+
 @media screen and (max-width: 820px) {
   .btn {
     width: 100%;
