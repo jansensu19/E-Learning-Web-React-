@@ -4,3 +4,12 @@
     display: flex;
     justify-content: center;
   }
+
+  .form__title{
+    padding-top: 5vh;
+  }
+
+  .form__list{
+    display: flex;
+    flex-direction: column;
+  }
