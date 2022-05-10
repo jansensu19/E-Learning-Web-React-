@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import "./Description.css";
 import Popup from "./popup";
+import { Link } from 'react-scroll'
 
 function Description() {
   return (
@@ -10,22 +11,17 @@ function Description() {
         <div className="nav-tab">
           <ul className="description-tab">
             <li>
-              <a href="/" className="active">
-                Class Description
-              </a>
+            <Link spy={true} to='description-info' smooth={true} activeClass='activeClass'>Class Description</Link>
             </li>
             <li>
-              <a href="/">Testimony</a>
-            </li>
-            <li>
-              <a href="/">FAQ</a>
+              <Link spy={true} to='testimony-title' smooth={true}>Testimony</Link>
             </li>
           </ul>
         </div>
       </div>
       
 
-      <div className="description-info">
+      <div className="description-info" id="description-info">
         <div className="desc-list">
         <h2>Description</h2>
         <p>
@@ -57,8 +53,8 @@ function Description() {
             <h4>Learning Equipment</h4>
             <h5><i className="fas fa-microchip"></i>Processor</h5>
             <span>Intel Celeron (Core i3 and above Recommended)</span>
-            <h4>Tools yang dibutuhkan untuk belajar:</h4>
-            <span><i className="fad fa-window"></i>Web Browser (Google Chrome atau Mozilla Firefox)</span>
+            <h4>Tools needed for learning:</h4>
+            <span><i class="fab fa-windows"></i> Web Browser (Google Chrome or Mozilla Firefox)</span>
             <br />
             <br />
             <Popup />

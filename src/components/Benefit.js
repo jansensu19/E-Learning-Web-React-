@@ -9,11 +9,11 @@ function Benefit() {
                     <ul className='benefit__items'>
                         <li className='benefit__item'>
                             <div className='benefit__item__info'>
-                                <h5 className='item__title'><i class="far fa-browser"></i>Access All Classes</h5>
+                                <h5 className='item__title'><i class="fas fa-columns"></i>Access All Classes</h5>
                                 <p className='item__subtext'>Full access to all classes at Dicoding Academy.</p>
                             </div>
                             <div className='benefit__item__info'>
-                                <h5 className='item__title'><i class="far fa-window"></i>Submission</h5>
+                                <h5 className='item__title'><i class="far fa-window-restore"></i>Submission</h5>
                                 <p className='item__subtext'>Put your technical skills to the test by doing submission assignments.</p>
                             </div>
                         </li>
@@ -35,11 +35,11 @@ function Benefit() {
                     <ul className='benefit__items'>
                         <li className='benefit__item'>
                             <div className='benefit__item__info'>
-                                <h5 className='item__title'><i class="far fa-code"></i>Interactive Code</h5>
+                                <h5 className='item__title'><i class="fas fa-code"></i>Interactive Code</h5>
                                 <p className='item__subtext'>Write and run your practice code directly on the module materials.</p>
                             </div>
                             <div className='benefit__item__info'>
-                                <h5 className='item__title'><i class="far fa-file-certificate"></i>Certificate</h5>
+                                <h5 className='item__title'><i class="fas fa-certificate"></i>Certificate</h5>
                                 <p className='item__subtext'>Certificate of passing competency if you successfully complete the class following the final project submission well.</p>
                             </div>
                         </li>
@@ -48,11 +48,11 @@ function Benefit() {
                     <ul className='benefit__items'>
                         <li className='benefit__item'>
                             <div className='benefit__item__info'>
-                                <h5 className='item__title'><i class="far fa-clipboard-list"></i>Exam</h5>
+                                <h5 className='item__title'><i class="fas fa-copy"></i>Exam</h5>
                                 <p className='item__subtext'>Validate your knowledge by doing exam questions.</p>
                             </div>
                             <div className='benefit__item__info'>
-                                <h5 className='item__title'><i class="far fa-file-certificate"></i>Renew Certificate</h5>
+                                <h5 className='item__title'><i class="fas fa-certificate"></i>Renew Certificate</h5>
                                 <p className='item__subtext'>Renew your expired certificate with new certificate fast, simple and easier to get certificate.</p>
                             </div>
                         </li>

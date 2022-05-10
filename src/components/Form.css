@@ -1,15 +1,63 @@
-.form__container {
-    height: 40vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.contact-form{
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 80vh;
+  margin-top: 4rem;
+    /* scroll */
+padding-top: 3rem;
+}
+
+.c-right{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+}
+
+.c-right>form
+{
+  display: flex;
+  width: 30rem;
+  height: 30rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.c-right .user{
+  width: 20rem;
+  height: 2rem;
+  padding: 0.3em;
+  outline: none;
+  border: 2px solid orange;
+  border-radius: 8px;
+  font-size: 16px;   
+}
+
+.c-right .Sign{
+  font-size: 30px;
+  font-weight: bold;
+  height: 4rem!important;
+}
+
+.button_submit{
+  width: 5rem;
+  height: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form{
+      padding: 0;
+      flex-direction: column;
+      gap: 5rem;
+      height: 40rem;
+  }
+  .c-right .user{
+      width: 16rem;
   }
 
-  .form__title{
-    padding-top: 5vh;
-  }
-
-  .form__list{
-    display: flex;
-    flex-direction: column;
-  }
+}   

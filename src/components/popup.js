@@ -25,7 +25,7 @@ export default () => (
 
         <div className="popup-specs-info">
         <span><i className="far fa-save"></i>RAM</span>
-        <span className="longer-info"><i className="far fa-expand-alt"></i>Screen</span>
+        <span className="longer-info"><i class="fas fa-desktop"></i>Screen</span>
         </div>
 
         <div className="popup-specs-info">
@@ -35,8 +35,8 @@ export default () => (
         
 
         <div className="popup-specs-info">
-          <span><i className="fad fa-window"></i>Operating System</span>
-          <span className="longer-info-2"><i className="far fa-computer-classic"></i>Processor</span>
+          <span><i className="fab fa-windows"></i> Operating System</span>
+          <span className="longer-info-2"><i class="fas fa-microchip"></i>Processors</span>
         </div>
 
         <div className="popup-specs-info">
@@ -50,8 +50,8 @@ export default () => (
           </div>
         
         <div className="tools-info">
-          <span><i className="far fa-globe"></i>Web Browser (Google Chrome or Mozilla Firefox)</span>
-          <span><i className="far fa-globe"></i>Text Editor (VSCode, Atom, or Emacs)</span>
+          <span><i class="fas fa-globe"></i>Web Browser (Google Chrome or Mozilla Firefox)</span>
+          <span><i class="fas fa-globe"></i>Text Editor (VSCode, Atom, or Emacs)</span>
         </div>
         </div>
         <div className="actions">

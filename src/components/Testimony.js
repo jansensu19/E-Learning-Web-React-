@@ -5,7 +5,7 @@ import "./Testimony.css";
 function Testimony() {
   return (
     <>
-    <div className="testimony-title">
+    <div className="testimony-title" id="testimony-title">
         <h2>Student Testimonials</h2>
         <p>Thousands of successful students study at Dicoding Academy. What are they saying? Here are their original testimonials.</p>
         </div>
